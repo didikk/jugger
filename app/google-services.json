@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "20763809275",
+    "firebase_url": "https://jugger-73cd2.firebaseio.com",
+    "project_id": "jugger-73cd2",
+    "storage_bucket": "jugger-73cd2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:20763809275:android:9702ed9a68d734ea",
+        "android_client_info": {
+          "package_name": "me.didik.sample"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "20763809275-i19q8gtmco4e4m7cltb9rim9gb197865.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "me.didik.sample",
+            "certificate_hash": "39a04020bc4c237e06db18fbe133d8a4e0f3292e"
+          }
+        },
+        {
+          "client_id": "20763809275-b7j6fcposo29ghdcs07e7f7gp3j103p4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDKyd3k8rzENxwy9ipvuO_uSm51CWc_oNk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "20763809275-b7j6fcposo29ghdcs07e7f7gp3j103p4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

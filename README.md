@@ -26,7 +26,7 @@ repositories {
 }
 
 dependencies {
-    compile 'com.github.didikk:jugger:1.0.1'
+    compile 'com.github.didikk:jugger:1.0.3'
 
 }
 // ADD THIS AT THE BOTTOM

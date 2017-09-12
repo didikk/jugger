@@ -26,7 +26,7 @@ repositories {
 }
 
 dependencies {
-    compile 'com.github.didikk:jugger:1.0.0'
+    compile 'com.github.didikk:jugger:1.0.1'
 
 }
 // ADD THIS AT THE BOTTOM
@@ -44,10 +44,10 @@ Introduction
 
 | Parameter Key  | Default Value |
 | ------------- | ------------- |
-| is_active  | Is your apps active (Ex: false|true)  |
+| is_active  | Is your apps active (Ex: false/true)  |
 | app_message  | Message if your apps is inactive for a reason (Ex: App is under maintenance, please wait for a moment.)  |
 | update_message  | Message if newer version is available (Ex: Newer version is available, please update apps to get the best service.)  |
-| is_mandatory  | Force your users to update to the latest version (Ex: false|true)  |
+| is_mandatory  | Force your users to update to the latest version (Ex: false/true)  |
 | version_code  | Version code of your apps (Ex: 12)  |
 
 5. Publish Changes (Top right corner)

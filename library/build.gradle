@@ -4,12 +4,11 @@ apply plugin: 'com.github.dcendents.android-maven'
 group='com.github.didikk'
 
 android {
-    compileSdkVersion 26
-    buildToolsVersion "26.0.1"
+    compileSdkVersion 27
 
     defaultConfig {
         minSdkVersion 15
-        targetSdkVersion 26
+        targetSdkVersion 27
         versionCode 1
         versionName "1.0"
 
@@ -29,11 +28,11 @@ repositories {
 }
 
 dependencies {
-    compile 'com.android.support:appcompat-v7:26.0.2'
-    compile 'com.android.support:recyclerview-v7:26.0.2'
-    compile 'com.google.firebase:firebase-core:11.2.2'
-    compile 'com.google.firebase:firebase-config:11.2.2'
-    compile ('com.afollestad.material-dialogs:core:0.9.4.7'){
+    api 'com.android.support:appcompat-v7:27.1.1'
+    api 'com.android.support:recyclerview-v7:27.1.1'
+    api 'com.google.firebase:firebase-core:15.0.0'
+    api 'com.google.firebase:firebase-config:15.0.0'
+    api ('com.afollestad.material-dialogs:core:0.9.6.0'){
         exclude group: 'com.android.support'
     }
 }
